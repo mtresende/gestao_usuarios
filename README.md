@@ -62,3 +62,6 @@ Procura pelo CPF no arquivo dados.txt e exibe as informações do usuário se en
 **atualizar(File arquivo, Scanner sc):**
   
 Atualiza as informações de um usuário no arquivo dados.txt. Solicita o CPF do usuário a ser atualizado e permite modificar o nome, idade, CPF, CEP ou benefício.
+##
+
+![Diagrama de classe (Trabalho Final)](https://github.com/mtresende/gestao_usuarios/assets/124203390/9f2aa0df-7991-4da2-ab6c-d30e0601c67b)

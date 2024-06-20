@@ -1,6 +1,8 @@
 ## Gestão de usuários
 
-Este é um sistema pra gerenciamento de usuários de benefícios para auxiliar assistentes sociais.
+**Proposta de problema:** Falta de recursos para uma organização mais qualificada dos usuários é um problema para os assistentes sociais. A quantidade de informações a serem tratadas é numerosa e isso torana o processo de manipulação desses dados bem demorada, gereando impaciência por parte dos usuários e dificultando o atendimento dos assistentes sociais.
+
+Este sistema foi pensado para melhor gerenciamento de usuários de benefícios para auxiliar assistentes sociais durante os atendimentos e validação da liberação dos benefícios.
 
 ## Sobre o Programa
 

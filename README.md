@@ -1,18 +1,30 @@
-## Getting Started
+## Gestão de usuários
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema pra gerenciamento de usuários de benefícios para auxiliar assistentes sociais.
 
-## Folder Structure
+## Sobre o Programa
 
-The workspace contains two folders by default, where:
+O objetivo do programa é otimizar o tempo ao executar manipulação e consulta dos dados cadastrados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**Os seguintes dados serão tratados:**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Nome
+2. Idade
+3. CPF
+4. CEP
+5. Beneficio
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+O usuário do sistema consegue cadastrar, consultar, deletar e atualizar os esses dados.
 
-## Dependency Management
+## Funcionamento
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este programa é do tipo console, serão apresentadas as opções númeradas através de um menu para o usuário digitar a opção desejada.
+
+**Menu**
+
+1. Cadastrar usuário
+2. Consultar usuário
+3. Alterar um registro
+4. Deletar cadastro
+
+Para cada opção o sistema irá realizar determinada ação e após finalizar o programa sugere a opção de voltar ao menu ou encerrar o sistema.

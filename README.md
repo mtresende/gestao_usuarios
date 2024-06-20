@@ -28,3 +28,37 @@ Este programa é do tipo console, serão apresentadas as opções númeradas atr
 4. Deletar cadastro
 
 Para cada opção o sistema irá realizar determinada ação e após finalizar o programa sugere a opção de voltar ao menu ou encerrar o sistema.
+
+## Diagrama de classes
+
+**Descrição dos métodos:**
+
+`App`
+
+**main(String[] args):**
+
+ Método principal que inicializa o scanner, cria o arquivo de dados e gerencia o menu de opções para realizar operações de cadastro, consulta, deleção e atualização de usuários.
+  ##
+`Create`
+
+**cadastrar(String nome, String idade, String cpf, String cep, String beneficio):**
+  
+Verifica se o CPF já está cadastrado. Se não estiver, adiciona um novo usuário ao arquivo dados.txt.
+##
+`Delete`
+
+**deletar(String cpf):**
+  
+Procura pelo CPF no arquivo dados.txt e remove a linha correspondente. Usa um arquivo temporário para realizar a operação de deleção.
+##
+`Read`
+
+**consultar(String cpf):**
+  
+Procura pelo CPF no arquivo dados.txt e exibe as informações do usuário se encontrado.
+##
+`Update`
+
+**atualizar(File arquivo, Scanner sc):**
+  
+Atualiza as informações de um usuário no arquivo dados.txt. Solicita o CPF do usuário a ser atualizado e permite modificar o nome, idade, CPF, CEP ou benefício.
